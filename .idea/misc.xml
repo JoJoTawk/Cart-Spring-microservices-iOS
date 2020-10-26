@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/offer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/service-registry/pom.xml" />
       </list>
     </option>
   </component>

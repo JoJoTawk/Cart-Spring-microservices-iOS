@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Cart-Spring-microservices-iOS-main.iml" filepath="$PROJECT_DIR$/.idea/Cart-Spring-microservices-iOS-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/api-gateway/apigateway.iml" filepath="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/api-gateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/offer-service/offer.iml" filepath="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/offer-service/offer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/product-service/product-service.iml" filepath="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/service-registry/registry.iml" filepath="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/service-registry/registry.iml" />
     </modules>
   </component>
 </project>

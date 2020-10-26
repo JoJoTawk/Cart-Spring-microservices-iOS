@@ -12,4 +12,9 @@ import lombok.ToString;
 public class ProductOfferEvent {
     private Integer productId;
     private Double discountOffer;
+
+    public ProductOfferEvent(Integer productId, Double discountOffer) {
+        this.productId = productId;
+        this.discountOffer = discountOffer;
+    }
 }
