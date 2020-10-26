@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Cart-Spring-microservices-iOS-main.iml" filepath="$PROJECT_DIR$/.idea/Cart-Spring-microservices-iOS-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/api-gateway/apigateway.iml" filepath="$PROJECT_DIR$/iOS-SpringBoot-microservices-cart/api-gateway/apigateway.iml" />
     </modules>
   </component>
 </project>

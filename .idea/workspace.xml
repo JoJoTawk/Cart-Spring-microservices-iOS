@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61c22942-5d86-4447-ae69-054adc48736c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/offer-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/OfferServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/configuration/RabbitMQConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/controller/OfferController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/event/EventDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/event/MultiplicationSolvedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/event/ProductOfferEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/model/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/model/request/OfferRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/repository/OfferRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/service/OfferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/java/com/tawk/offer/service/OfferServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer-service/src/test/java/com/tawk/offer/OfferServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/tawk/product/event/ProductOfferEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/tawk/product/event/ProductOfferEvent.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jJspE0ZBwLe6lF7kg8CZGMPVNg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApigatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tawk.apigateway.ApigatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61c22942-5d86-4447-ae69-054adc48736c" name="Default Changelist" comment="" />
+      <created>1603533711609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603533711609</updated>
+      <workItem from="1603533713207" duration="1930000" />
+      <workItem from="1603658210221" duration="406000" />
+      <workItem from="1603659247684" duration="396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="406" key="GridCell.Tab.0.bottom" timestamp="1603658094951">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1603658094951" />
+    <state width="1638" height="406" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1603535286737" />
+    <state width="1638" height="406" key="GridCell.Tab.0.center" timestamp="1603658094950">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1603658094950" />
+    <state width="1638" height="406" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1603535286736" />
+    <state width="1638" height="406" key="GridCell.Tab.0.left" timestamp="1603658094950">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1603658094950" />
+    <state width="1638" height="406" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1603535286736" />
+    <state width="1638" height="406" key="GridCell.Tab.0.right" timestamp="1603658094951">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1603658094951" />
+    <state width="1638" height="406" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1603535286737" />
+    <state width="1638" height="406" key="GridCell.Tab.1.bottom" timestamp="1603658094952">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.1.bottom/0.23.1680.974@0.23.1680.974" timestamp="1603658094952" />
+    <state width="1638" height="406" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1603535286739" />
+    <state width="1638" height="406" key="GridCell.Tab.1.center" timestamp="1603658094951">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.1.center/0.23.1680.974@0.23.1680.974" timestamp="1603658094951" />
+    <state width="1638" height="406" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1603535286738" />
+    <state width="1638" height="406" key="GridCell.Tab.1.left" timestamp="1603658094951">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.1.left/0.23.1680.974@0.23.1680.974" timestamp="1603658094951" />
+    <state width="1638" height="406" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1603535286738" />
+    <state width="1638" height="406" key="GridCell.Tab.1.right" timestamp="1603658094952">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1638" height="406" key="GridCell.Tab.1.right/0.23.1680.974@0.23.1680.974" timestamp="1603658094952" />
+    <state width="1638" height="406" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1603535286738" />
+  </component>
+</project>
