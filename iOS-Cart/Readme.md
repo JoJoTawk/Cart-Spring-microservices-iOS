@@ -31,4 +31,4 @@ Viper is an architecture that divides a feature implementation into five distinc
 
     Plain data objects mainly driven by interactor. No more, no less.
     
-![Alt text](../../../1_rnmJYsedkv4jybUeQxJI4g.png?raw=true "Title")
+![Alt text](../../1_rnmJYsedkv4jybUeQxJI4g.png?raw=true "Title")
