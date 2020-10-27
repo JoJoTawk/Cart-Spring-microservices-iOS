@@ -35,4 +35,4 @@ Viper is an architecture that divides a feature implementation into five distinc
       <img src="../../iOS-Cart/1_rnmJYsedkv4jybUeQxJI4g.png" width="350" title="hover text">
 </p>
     
-![Alt text](../../../iOS-Cart/1_rnmJYsedkv4jybUeQxJI4g.png?raw=true "Title")
+![Alt text](../../iOS-Cart/1_rnmJYsedkv4jybUeQxJI4g.png?raw=true)
