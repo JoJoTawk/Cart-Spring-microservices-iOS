@@ -113,3 +113,27 @@ Let's add a new product by calling `localhost:8000/product-service/products` **P
     "price": price is Double
 }
 ````
+## Run Offer service
+Open separate terminal and run
+ ````
+ cd offer-service/
+ mvn clean install
+ mvn spring-boot:run
+ ````
+Application will run on ``http://localhost:8082/``
+
+Access it's data source console in browser by
+`localhost:8082/h2`  
+To connect offer data source h2 console use below credentials  
+JDBC URL  : `jdbc:h2:~/offer`  
+User Name : `root`  
+Password  : `root`
+
+Check offer table and there is no offer right now.  
+Let's add a offer for *product_id = 1* by calling `http://localhost:8000/offer-service/offer` POST endpoint with below body in postman
+````
+{
+    "productId": 1,
+    "discountOffer": 10
+}
+````
