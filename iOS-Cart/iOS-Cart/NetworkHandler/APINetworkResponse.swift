@@ -33,7 +33,7 @@ protocol NetworkSessionProtocol {
 }
 
 /// Class handling the creation of URLSessionTaks and responding to URSessionDelegate callbacks.
-class APINetworkSession: NSObject {
+class APINetworkSession: NSObject, URLSessionDelegate {
 
     /// The URLSession handing the URLSessionTaks.
     var session: URLSession!

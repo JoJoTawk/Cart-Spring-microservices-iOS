@@ -28,7 +28,7 @@ enum APIEnvironment: EnvironmentProtocol {
         case .development:
             return [
                 "Content-Type" : "application/json",
-                "Authorization" : "Bearer yourBearerToken"
+//                "Authorization" : "Bearer yourBearerToken"
             ]
         case .production:
             return [:]

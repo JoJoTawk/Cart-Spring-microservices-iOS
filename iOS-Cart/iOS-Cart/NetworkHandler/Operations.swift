@@ -136,7 +136,7 @@ extension RequestProtocol {
     /// Returns the URLRequest body `Data`
     private var jsonBody: Data? {
         // The body data should be used for POST, PUT and PATCH only
-        guard [.post, .put, .patch].contains(method), let parameters = parameters else {
+        guard [.post, .put].contains(method), let parameters = parameters else {
             return nil
         }
         // Convert parameters to JSON data

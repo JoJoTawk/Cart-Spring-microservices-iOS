@@ -19,10 +19,10 @@ class ProductView: UIViewController {
            "author": "Margaret Mitchell"
         ]
 
-        let bookCreationRequest = BooksEndpoint.create(parameters: params)
+        let ProductCreation = productsEndpoint.createProduct(parameters: params)
 
-        let bookOperation = APIOperation(bookCreationRequest)
-        bookOperation?.execute(in: requestDispatcher) { result in
+        let productOp = APIOperation(ProductCreation)
+        productOp?.execute(in: requestDispatcher) { result in
           // Handle result
         }
         
