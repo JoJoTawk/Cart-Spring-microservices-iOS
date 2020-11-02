@@ -9,7 +9,26 @@ Here is total 5 separate application (4 backend).
 - offer-service
 
 # What is microservice?
-//TODO
+
+    Microservices, as opposed to a monolith architecture, dictates you have
+    to divide your application into small, logically related, pieces. 
+    These pieces are independent software that communicates with other
+    pieces using HTTP or messages.
+    
+#### There are many advantages to microservices:
+
+No high coupling risk - 
+        
+        Since each app lives in a different process, it is impossible to create classes that talk to each other.
+Easy scaling - 
+
+        As you already know, every service is an independent piece of software. As such, it can be scaled up or down on demand. Moreover, since the code is smaller than a monolith, it probably will start up faster.
+Multiple stacks -
+
+        You can use the best software stack for every service. No more need to use Java when, say, Python is better for what you’re building.
+Fewer merges and code conflicts -
+
+        As every service is a different repository, it is easier to handle and review commits.
 
 # Run the services
 
