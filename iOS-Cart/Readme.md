@@ -75,7 +75,20 @@ In addition to being a class, URLSession is a technology that provides the infra
    You use a `URLSession` to make multiple subsequent requests, as `URLSessionTask` instances. A task is always part of a session. The `URLSession` also kinda functions like a factory that you use to set up and execute different `URLSessionTasks`, based on the parameters you put in.
 
 
+# Extensions
 
+Extensions add new functionality to an existing class, structure, enumeration, or protocol type. This includes the ability to extend types for which you do not have access to the original source code (known as retroactive modeling). Extensions are similar to categories in Objective-C. (Unlike Objective-C categories, Swift extensions do not have names.)
+
+Extensions in Swift can:
+
+  - Add computed instance properties and computed type properties
+  - Define instance methods and type methods
+  -  Provide new initializers
+  - Define subscripts
+  - Define and use new nested types
+  - Make an existing type conform to a protocol
+  
+  Refer To : [](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)
 
 
 

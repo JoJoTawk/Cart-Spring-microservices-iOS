@@ -156,13 +156,16 @@ Let's add a offer for *product_id = 1* by calling `http://localhost:8000/offer-s
     "discountOffer": 10
 }
 ````
+All services + iOS simulator running all Together
 
+![Alt text](https://github.com/JoJoTawk/Cart-Spring-microservices-iOS/blob/AllServices.png)
 
 Drafts Tutorial steps:
-
 
     `https://docs.google.com/document/d/1dc1ijl87KDZNwv0KhT_NPWqBZsINmbmBN241etjcqkM/edit?usp=sharing`
 
     `https://docs.google.com/document/d/1bq3vNKzbfZ87N6_XoQrnrdKytbmTWeLdoCA5bkQHBFw/edit?usp=sharing`
 
     `https://docs.google.com/document/d/1Ez-N_qv2GTJPf-2jOcjdKPuKzogrUUWGt3sz6b-zLwQ/edit?usp=sharing`
+
+
