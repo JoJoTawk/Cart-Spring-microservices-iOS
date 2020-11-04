@@ -1,3 +1,10 @@
+
+## Prerequisite 
+
+- Xcode 9.0+
+
+- Swift 4.0+
+
 #   What is VIPER ?
 
 Viper is an architecture that divides a feature implementation into five distinct layer in one module. Each character of VIPER represents a different layer;
@@ -50,3 +57,25 @@ To summarize, what a VIPER module should look like, take a look at the figure be
 
 
 ![Alt text](https://github.com/JoJoTawk/Cart-Spring-microservices-iOS/blob/iOS/iOS-Cart/1_rnmJYsedkv4jybUeQxJI4g.png)
+
+# Using URLSession to retrieve JSON in Swift
+
+URLSession is the successor of NSURLConnection. For many years, NSURLConnection has been the workhorse for networking on iOS and macOS. Most developers used or created a wrapper around NSURLConnection to hide the less enjoyable aspects of the API.
+
+In addition to being a class, URLSession is a technology that provides the infrastructure for networking, exposed through a modern and elegant API. In this series, I introduce you to the URLSession stack. You learn how easy it is to get started with URLSession and you discover that URLSession exposes a flexible API that should meet anyone's networking needs.
+
+### Here’s how the environment works:
+
+   - You use `URLSession` to create a session. You can think of a session as an open tab or window in your webbrowser, which groups together many HTTP requests over subsequent website visits.
+   - The URLSession is used to create `URLSessionTask` instances, which can fetch and return data to your app, and download and upload files to webservices.
+   - You configure a session with a `URLSessionConfiguration` object. This configuration manages caching, cookies, connectivity and credentials.
+   - To make a request, you create a data task, of class `URLSessionDataTask`, and you provide it with a URL, such as https://www.google.com, and a completion handler. This is a closure that’s executed when the request’s response is returned to your app.
+   - When the completion handler is executed, you can inspect the returned data and take appropriate action, such as loading the data into the App UI.
+   
+   You use a `URLSession` to make multiple subsequent requests, as `URLSessionTask` instances. A task is always part of a session. The `URLSession` also kinda functions like a factory that you use to set up and execute different `URLSessionTasks`, based on the parameters you put in.
+
+
+
+
+
+
