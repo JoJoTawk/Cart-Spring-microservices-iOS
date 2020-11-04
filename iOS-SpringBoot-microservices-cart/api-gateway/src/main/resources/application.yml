@@ -5,6 +5,10 @@ spring:
   application:
     name: api-gateway
 
+  cloud:
+    config:
+      failFast: true
+
 zuul:
   ignoredServices: '*'
   routes:
